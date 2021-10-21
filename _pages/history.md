@@ -11,6 +11,7 @@ excerpt: "The libGDX project was started over 10 years ago. Over the years, libG
 ---
 
 <style>
+/* https://www.w3schools.com/howto/howto_css_timeline.asp */
 * {
   box-sizing: border-box;
 }
@@ -237,5 +238,8 @@ p a:active {
 
 <script src="/assets/js/aos.js"></script>
 <script>
-  AOS.init();
+  AOS.init({
+    disable: window.matchMedia('(prefers-reduced-motion: reduce)').matches,
+    once: true
+  });
 </script>

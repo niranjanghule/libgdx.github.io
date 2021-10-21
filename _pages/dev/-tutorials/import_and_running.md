@@ -26,7 +26,7 @@ Next up, you need to import your project into your IDE.
 
    In **Eclipse**, choose `File -> Import... -> Gradle -> Existing Gradle Project` (make sure that your freshly generated project is not located inside of your workspace).
 
-   In **Netbeans** it is `File -> Open Project`.
+   In **NetBeans** it is `File -> Open Project`.
 
 2. You may need to refresh the Gradle project after the initial import if some dependencies weren't downloaded yet.
 
@@ -71,7 +71,7 @@ If you want to execute your freshly imported project, you have to follow differe
     {: .notice--warning}
 7. Then select your asset folder located in `assets`
 
-### In Netbeans:
+### In NetBeans:
 Right click the desktop project -> Run
 
 <br/>
@@ -79,7 +79,7 @@ Right click the desktop project -> Run
 ## Android
 - **IDEA/Android Studio:** Right click AndroidLauncher -> Run AndroidLauncher
 - **Eclipse:** Right click Android project -> Run As -> AndroidApplication
-- **Netbeans:** Right click Android project -> Run As -> AndroidApplication
+- **NetBeans:** Right click Android project -> Run As -> AndroidApplication
 
 <br/>
 
